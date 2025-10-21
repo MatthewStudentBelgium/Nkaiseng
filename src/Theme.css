@@ -1,0 +1,20 @@
+.toggle{
+    position: fixed;
+    top: 20px;
+    right:25px;
+    background: var(--accent-color, #7b4ae2);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.4 ease, color 0.4 ease, transform 0.3s ease;
+    z-index: 1000;
+}
+
+.toggle:hover{
+    background: var(--secondary-color, #a4ff00);
+    color: black;
+    transform: rotate(15deg);
+}
